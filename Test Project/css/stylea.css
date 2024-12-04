@@ -1,0 +1,119 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: left;
+    padding: 0 15px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+header .logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff4500;
+}
+
+/* Стилі для профілю */
+.profile {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ff4500;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.profile p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.profile .contact {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.profile .contact a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.profile .contact a:hover {
+    background-color: #e03e00;
+}
+
+/* Футер */
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff4500;
+    transition: color 0.3s; 
+}
+
+footer a:hover {
+    color: #e03e00;
+}
